@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./search.css">
+</head>
+<body>
+    <header>
+        <div class="top-container">
+            <nav>
+                <a href="../Everyday/index.html" class="top-nav"><h2>Main</h2></a>
+
+                <div class="top-nav dropdown" id="dropdown-2">
+                    <h2>Mars</h2>
+                    <div class="dropdownList" id="dropdownList-2">
+                        <a href="../Mars/mars.html" class="listItem">Mars Photos</a>
+                    </div>
+                </div>
+
+                <div class="top-nav dropdown" id="dropdown-1">
+                    <h2>Search</h2>
+                    <div class="dropdownList" id="dropdownList-1">
+                        <a href="search.html" class="listItem">Search</a>
+                    </div>
+                </div>
+            </nav>
+            <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/17/e8/23/17e8236a-b57d-2d36-c679-7263fd196c69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/246x0w.jpg" alt="">     
+        </div>
+    </header>
+    <h1 id="searchTitle">NASA search -by NASA API</h1>
+    <div id="input">
+        <input type="text" id="search" placeholder="Search here!">
+        <div id="btn">Submit</div>
+    </div>
+    <div id="display"></div>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+     </script>
+    <script src="./search.js"></script>
+    <script src="../dropdown.js"></script>
+</body>
+</html>

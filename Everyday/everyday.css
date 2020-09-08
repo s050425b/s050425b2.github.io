@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset */
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Balsamiq Sans Italic'), local('BalsamiqSans-Italic'), url(https://fonts.gstatic.com/s/balsamiqsans/v1/P5sazZiAbNrN8SB3lQQX7PncwdsnIq9JLTjMXQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Balsamiq Sans Bold Italic'), local('BalsamiqSans-BoldItalic'), url(https://fonts.gstatic.com/s/balsamiqsans/v1/P5sfzZiAbNrN8SB3lQQX7PncwdsvmYpcABrBdwEoaQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Balsamiq Sans Regular'), local('BalsamiqSans-Regular'), url(https://fonts.gstatic.com/s/balsamiqsans/v1/P5sEzZiAbNrN8SB3lQQX7Pncwd4XIKVODzo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Balsamiq Sans Bold'), local('BalsamiqSans-Bold'), url(https://fonts.gstatic.com/s/balsamiqsans/v1/P5sZzZiAbNrN8SB3lQQX7PncyWUyNYhsAhDGVQM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/*font setting*/
+body{
+    background-color: white;
+    font-family: 'Balsamiq Sans';
+}
+
+.top-container{
+    display:inline-block;
+    width:100%;
+    height:100px;
+    background-color: black;
+}
+
+.top-container nav{
+    display: flex;
+    text-align: center;
+    width:40%;
+    height:40%;
+    margin-top: 60px;
+}
+
+.top-container .top-nav{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top:10px;
+    width:33.33%;
+    height:100%;
+    border-left:1px solid white;
+    color: white;
+}
+
+.top-container .top-nav:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.top-container img{
+    position: absolute;
+    background-image: url("https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/17/e8/23/17e8236a-b57d-2d36-c679-7263fd196c69/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/246x0w.jpg");
+    height:100px;
+    top: 0;
+    left:46%;
+}
+
+#video iframe{
+    display: block;
+    width: 80%;
+    height:650px;
+    margin: 30px auto;
+}
+
+#video img{
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+}
+
+#video-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+    #video-title p{
+        margin-top: 10px;
+        font-size:16px;
+        font-weight: normal;
+    }
+
+#video-discription{
+    font-size: 20px;
+    text-align: center;
+}
+
+#display{
+    box-sizing: border-box;
+    padding:50px;
+    width:100%;
+    font-family: "Balsamiq Sans";
+}
+
+
+/* dropdown list */
+
+.dropdownList{
+    display: none;
+    position:absolute;
+    background:black;
+    
+    top:100px;
+    width:13.332%;
+}
+
+.dropdownList .listItem{
+    box-sizing: border-box;
+    display: block;
+    height:40px;
+    padding:10px;
+    color:white;
+}
+
+.dropdownList .listItem:hover{
+    background-color: brown;
+}
